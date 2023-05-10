@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #141414;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+.container .judul {
+  color: white;
+  font-size: 25px;
+}
+
+.container .profile {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container .profile .box-profile {
+  margin: 10px;
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: aqua;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.container .profile .box-profile .nomor-profile {
+  color: grey;
+}
+.container .profile .box-profile img {
+  width: 100%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.container .profile .box-profile span {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+.container .btn-kelola {
+  margin-top: 50px;
+}
+.container .btn-kelola a {
+  text-decoration: none;
+  font-size: 14px;
+  color: grey;
+  border: 2px solid grey;
+  padding: 5px;
+}
